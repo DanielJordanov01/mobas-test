@@ -1,0 +1,208 @@
+/****FONTS****/
+@font-face {
+  font-family: lato;
+  src: url(/fonts/Lato/Lato-Regular.ttf);
+}
+
+/****GLOBAL****/
+body {
+  font-family: lato, sans-serif;
+  color: #87989d;
+}
+
+.container {
+  width: 60%;
+}
+
+h2 {
+  color: #343e41;
+  font-weight: 600;
+  font-size: 1.8rem;
+}
+
+h3 {
+  color: #343e41;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+/****NAV****/
+.navbar {
+  position: sticky;
+  top: 0px;
+  box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%);
+  background-color: #fff !important;
+}
+
+.navbar img {
+  width: 6rem;
+}
+
+.navbar-nav {
+  margin-left: 2rem;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  margin-right: 1rem;
+}
+
+.navbar a:nth-of-type(1) {
+  color: #343e41;
+}
+
+.nav-buttons {
+    float: right;
+}
+
+.nav-buttons a:nth-of-type(1):hover {
+  background-color: #c9a9bc;
+  color: #fff;
+}
+
+.nav-buttons a:nth-of-type(2) {
+  border: none;
+  background: #29b5b1;
+  color: #fff;
+}
+
+.nav-buttons a:nth-of-type(2):hover {
+  background-color: #343e41;
+  color: #fff;
+}
+
+.nav-buttons a {
+  text-decoration: none;
+  border: 2px solid #c9a9bc;
+  border-radius: 10px;
+  padding: 0.8rem;
+}
+
+.nav-buttons a:first-of-type {
+  margin-right: 1rem;
+}
+
+/****MASTER-HEAD****/
+.master-head {
+  height: 40rem;
+  background-image: url("../images/markus-leo-gmigvwp8ego-unsplash.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.head-contents {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 14rem;
+  z-index: 2;
+}
+
+.head-contents h1 {
+  text-align: center;
+  font-size: 220%;
+  font-weight: 700;
+  line-height: 3rem;
+  color: #fff;
+}
+
+.master-head button {
+  border: none;
+  border-radius: 10px;
+  background: #29b5b1;
+  color: #fff;
+}
+
+.master-head button:hover {
+  background-color: #343e41;
+  color: #fff;
+}
+
+.head-contents .row {
+  background: #fff;
+  padding: 1rem 0.5rem;
+  border-radius: 10px;
+  margin-top: 3rem;
+}
+
+.form select {
+  border: none;
+  margin-right: 1rem;
+  color: #9a9fa1;
+}
+
+.options {
+  border-radius: 5px;
+}
+
+/****INTRO****/
+.intro {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.intro button {
+  border-radius: 10px;
+  border-color: #29b5b1;
+  padding: 1rem;
+  margin-top: 3rem;
+}
+
+.intro button:hover {
+  background-color: #29b5b1;
+  color: #fff;
+}
+
+/****BOOKING****/
+.booking {
+  padding-top: 4rem;
+  padding-bottom: 3rem;
+}
+
+.booking span {
+    color: #343e41;
+    font-weight: 600;
+}
+
+.booking p {
+    color: #343e41;
+    padding-top: 1rem;
+    font-size: 1.1rem;
+}
+
+.booking a {
+    text-decoration: none;
+    color: #337ab7;
+}
+
+@media (max-width: 1445px) {
+    .container {
+        width: 90%;
+    }
+
+    .head-contents {
+        padding-top: 20%;
+    }
+
+    .master-head select:nth-of-type(1) {
+        margin-bottom: 1rem;
+    }
+
+    .master-head h1 {
+        font-size: 200%;
+    }
+
+    .intro p {
+        margin-bottom: 2rem;
+    }
+
+    .intro button {
+        margin-top: 1rem;
+    }
+}
+
+@media (max-width: 1200px) {
+  .nav-buttons {
+    display: none;
+  }
+}
